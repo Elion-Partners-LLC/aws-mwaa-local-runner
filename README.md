@@ -64,6 +64,10 @@ git clone https://github.com/aws/aws-mwaa-local-runner.git
 cd aws-mwaa-local-runner
 ```
 
+### Step zero: Elion MWAA case
+Assume locally the "ElionEngineer" role using the CLI, and paste the temporary credentials in the file `docker/config/.env.localrunner`.
+This will allow your Airflow local instance interact with the AWS Secrets Manager.
+
 ### Step one: Building the Docker image
 
 Build the Docker container image using the following command:
