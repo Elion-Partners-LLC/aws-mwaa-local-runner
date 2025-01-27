@@ -1,0 +1,10 @@
+--find-links /usr/local/airflow/plugins
+--no-index
+--constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.10.1/constraints-3.11.txt"
+
+apache-airflow-providers-amazon==8.28.0
+apache-airflow-providers-common-sql==1.16.0
+apache-airflow-providers-ssh==3.13.1
+apache-airflow-providers-microsoft-mssql==3.9.0
+apache-airflow-providers-sftp==4.11.0
+apache-airflow-providers-dbt-cloud==3.10.0
