@@ -1,4 +1,3 @@
-# from airflow.contrib.operators.s3_list_operator import S3ListOperator
 from airflow.providers.amazon.aws.operators.s3 import S3ListOperator
 
 
